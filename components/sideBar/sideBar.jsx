@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./sideBar.css";
-import admin_img from "../../public/img/admin.jpg"
+import admin_img from "/img/admin.jpg"
 function SideBar(){
     const nav = useNavigate();
     const sair = () =>{
@@ -22,19 +22,19 @@ function SideBar(){
                 <h4>ADMIN</h4>
                 <ol>
                     <li>
-                       <img src="../../public/img/trabalho.jpg" alt="" /> <NavLink to={"admin"}>Área Administrativa</NavLink>
+                       <img src="/img/trabalho.jpg" alt="" /> <NavLink to={"admin"}>Área Administrativa</NavLink>
                     </li>
                     <li>
-                    <img src="../../public/img/loja.jpg" alt="" />  <NavLink to={"loja"}>Lojas</NavLink>
+                    <img src="/img/loja.jpg" alt="" />  <NavLink to={"loja"}>Lojas</NavLink>
                     </li>
                     <li>
-                    <img src="../../public/img/produtos.jpg" alt="" />    <NavLink to={"produtos"}>Produtos</NavLink>
+                    <img src="/img/produtos.jpg" alt="" />    <NavLink to={"produtos"}>Produtos</NavLink>
                     </li>
                     <li>
-                    <img src="../../public/img/relatorio.jpg" alt="" />    <NavLink to={"relatorios"}>Realatórios</NavLink>
+                    <img src="/img/relatorio.jpg" alt="" />    <NavLink to={"relatorios"}>Realatórios</NavLink>
                     </li>
                     <li>
-                    <img src="../../public/img/pedidos.jpg" alt="" />   <NavLink to={"pedidos"}>Pedidos</NavLink>
+                    <img src="/img/pedidos.jpg" alt="" />   <NavLink to={"pedidos"}>Pedidos</NavLink>
                     </li>
                 </ol>
            </section>

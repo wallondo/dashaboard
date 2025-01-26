@@ -6,7 +6,7 @@ function Body(){
         <main className="body">
            <div className="greetings">
                 <div className="img_greetings">
-                    <img src="../../public/img/ola.png" alt="img greetings" />
+                    <img src="/img/ola.png" alt="img greetings" />
                 </div>
                 <div className="word_greetings">
                     <h3>Olá Faustino</h3>
@@ -15,19 +15,19 @@ function Body(){
            </div>
            <section className="sec_operations1">
                <div>
-                <div><img src="../../public/img/pedidos1.jpg" alt="" /></div>
+                <div><img src="/img/pedidos1.jpg" alt="" /></div>
                 <div><p>Números de pedidos <br/> <span> 540 </span></p></div>
                </div>
                <div>
-                <div><img src="../../public/img/pagamentos.jpg" alt="" /></div>
+                <div><img src="/img/pagamentos.jpg" alt="" /></div>
                 <div><p>Pagamentos <br/> <span> 540.</span>00.kz</p></div>
                </div>
                <div>
-                <div><img src="../../public/img/produtos1.jpg" alt="" /></div>
+                <div><img src="/img/produtos1.jpg" alt="" /></div>
                 <div><p>Números de Produtos <br/>  <span>540 </span></p></div>
                </div>
                <div>
-                <div><img src="../../public/img/clientes.jpg" alt="" /></div>
+                <div><img src="/img/clientes.jpg" alt="" /></div>
                 <div><p>Número de Clientela <br/> <span> 540 </span> </p></div>
                </div>
            </section>
