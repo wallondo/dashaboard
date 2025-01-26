@@ -39,7 +39,6 @@
     width: 100%;
     margin: 5px 0px;
     align-items: start;
-    border: 1px solid red;
 }
 .login_form div label{
     font-weight: bold;
