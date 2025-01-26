@@ -18,7 +18,7 @@ import Me_vendidos from "../components/parts/menos_vendidos";
 import P_Parados from "../components/parts/produtos_parados";
 import { Dados } from "./dados";
 import C_Produto from "../components/parts/cadastrar_produto";
-import Admis from "../components/admis/Admis";
+import Admis from "../components/admis/admis";
 import Entregadores from "../components/entregadores/entregadores";
 import Usuarios from "../components/usuarios/usuarios";
 import Login from "./login";
