@@ -33,7 +33,7 @@ function Login(){
                         <input type="text" placeholder="Escreva a tua frase do dia" name="frase" id="frase"/>
                     </div>
                     <div>
-                        <input type="submit" value="Entra" onClick={go}/>
+                        <input type="submit" value="Entra" onClick={go} className="bt_login"/>
                     </div>
                 </form>
                 </div>

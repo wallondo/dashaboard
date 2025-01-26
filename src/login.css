@@ -57,7 +57,7 @@
 .login_form div input::placeholder{
     font-weight: lighter;
 }
-.login_form div input[type="submit"]{
+.bt_login{
     width: 80%;
     height: 30px;
     border-radius: 5px;
