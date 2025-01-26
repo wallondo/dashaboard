@@ -1,0 +1,129 @@
+.sideBar{
+    border: 1px solid black;
+    height: 100%;
+    width: 230px;
+    flex-direction: column;
+    background-color: black;
+    padding-left: 10px;
+}
+.sideBar > *{
+    width: 90%;
+    margin: 5px 0px;
+}
+.sideBar .user{
+    height: 60px;
+    width: 90%;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sideBar .user img{
+    height: 50px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 0px 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sideBar h4{
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+}
+.sideBar  .home{
+    width: 90%;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(5, 85, 5);
+
+}
+
+.sideBar .home a{
+    margin-left: 10px;
+}
+
+/* Section of admin style */
+.sec_admin{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.sec_admin > *{
+    margin: 10px 0px;
+}
+.sec_admin h4{
+    text-align: start;
+}
+.sec_admin ol li{
+    text-align: center;
+    margin: 10px 0px;
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sec_admin ol li a{
+    word-spacing: 5px;
+}
+
+
+/* section pessoas styling */
+
+.sec_pessoas{
+    display: flex;
+    flex-direction: column;
+
+}
+.sec_pessoas .pessoas{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(5, 85, 5);
+    padding-left: 10px;
+
+}
+
+.sec_pessoas li{
+    text-align: center;
+    margin: 5px 0px;
+    height: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sec_pessoas li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.sec_admin ol li a{
+    word-spacing: 5px;
+}
+.sec_admin img{
+    width: 15px;
+    border-radius: 100%;
+    margin: 0px 5px;
+}
+.sair{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.sair img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+
+
+

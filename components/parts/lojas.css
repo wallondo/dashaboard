@@ -1,0 +1,71 @@
+.loja{
+    width: 250px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 5px;
+}
+
+.loja > *{
+    margin: 2px 0px;
+}
+.loja h3{
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+
+}
+.loja img{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+}
+.loja p{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.loja .actions{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loja .actions button{
+    padding: 2px 8px;
+    border: none;
+    border-radius: 2px;
+    color: darkblue;
+    font-weight: 700;
+    background-color: skyblue;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loja .actions button img{
+    height: 15px;
+    width: 15px;
+}
+.actions button:hover{
+    color: rgb(11, 224, 11);
+    text-shadow: 1px 1px 1px black;
+}
+.actions button:active{
+    color: rgb(6, 49, 6);
+}
+input[type="submit"]:hover{
+    color: rgb(11, 224, 11);
+    background-color: rgb(76, 172, 96);
+}
+
+input[type="submit"]:active{
+    color: rgb(6, 49, 6);
+}
+

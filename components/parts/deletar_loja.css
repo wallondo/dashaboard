@@ -1,0 +1,54 @@
+.deletar_loja{
+    background-color: rgba(167, 241, 213, 0.096);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px green;
+    height: 300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.deletar_loja form{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deletar_loja form div{
+    width: 90%;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.deletar_loja form div label{
+    font-weight: bold;
+}
+
+.deletar_loja form div label{
+    font-weight: 700;
+}
+.deletar_loja form div:not(:last-of-type) input{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.deletar_loja form div:last-of-type{
+    align-items: center;
+}
+.deletar_loja form div:last-of-type input{
+    height: 30px;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+
+}

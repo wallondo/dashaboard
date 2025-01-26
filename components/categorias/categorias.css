@@ -1,0 +1,39 @@
+.categorias{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categorias > div{
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+.categorias > div img{
+    width: 100%;
+    height: 100%;
+}
+.categorias > .hh{
+    border: 1px solid red;
+    width: 350px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    animation: move 5s 0s  infinite alternate;
+    border-radius: 5px;
+    color: darkred;
+}
+@keyframes move{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(50%);
+    }
+}

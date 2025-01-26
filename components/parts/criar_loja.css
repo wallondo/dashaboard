@@ -1,0 +1,54 @@
+.criar_loja{
+    min-height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: 1px 1px 5px green;
+    background-color: rgba(167, 241, 213, 0.096);
+    border-radius: 5px;
+}
+.criar_loja h3{
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.criar_loja form{
+    padding: 5px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.criar_loja form div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+.criar_loja form div label{
+    font-weight: 700;
+}
+.criar_loja form div:not(:last-of-type) input{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.criar_loja form div:last-of-type{
+    align-items: center;
+}
+.criar_loja form div:last-of-type input{
+    height: 30px;
+    width: 90%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+
+}
+
+

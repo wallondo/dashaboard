@@ -1,0 +1,75 @@
+.pedidos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    align-items: center;
+
+
+}
+.pedidos > h3{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+    color: white;
+}
+.pedidos .sec_pedidos{
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    
+}
+table{
+    border: 1px solid black;
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    max-height: 300px;
+    overflow-y: auto;
+    
+}
+th{
+    background-color: white;
+    border: 0.5px solid black;
+    height: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+td{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    height: 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+tbody{
+    border: 1px solid wheat;
+}
+td button{
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px auto;
+}
+tr:nth-child(even){
+    background-color: rgba(72, 80, 92, 0.144);
+}
+
+.sec_pedidos td button img{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+
+
+

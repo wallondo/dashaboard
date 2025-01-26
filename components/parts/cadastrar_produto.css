@@ -1,0 +1,47 @@
+.criar_produto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+.criar_produto h2{
+    margin: 10px 0px;
+}
+.criar_produto form{
+    padding: 5px 5px;
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.criar_produto form div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+.criar_produto form div label{
+    font-weight: 700;
+}
+.criar_produto form div:not(:last-of-type) input{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.criar_produto form div:last-of-type{
+    align-items: center;
+}
+.criar_produto form div:last-of-type input{
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    border: 1px solid black;
+
+}

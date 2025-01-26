@@ -1,0 +1,29 @@
+.m_vendidos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    min-height: 200px;
+}
+.m_vendidos h3{
+    margin: 0px 0px 10px 0px;
+}
+.sec_m_vendidos{
+    max-height: 300px;
+    width: 90%;
+    display: flex;
+    overflow-y: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+
+
+
+
+
+
+

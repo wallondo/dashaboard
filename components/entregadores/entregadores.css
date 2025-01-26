@@ -1,0 +1,25 @@
+
+.mota_div{
+    overflow: hidden;
+    width: 50%;
+    position: relative !important;
+    display: flex;
+    align-items: center;
+}
+.mota{
+
+    width: 30px !important;
+    height: 30px !important;
+   animation: mota 10s 0s infinite ease-in;
+   position: absolute !important;
+   left: -5%;
+}
+
+@keyframes mota{
+    from{
+        left: -5%;
+    }
+    to{
+        left: 102%;
+    }
+}

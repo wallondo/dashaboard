@@ -1,0 +1,85 @@
+.lojas{
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+.lojas > h3{
+    margin: 5px 0px;
+    color: white;
+    font-weight: 700;
+}
+.loja_nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.loja_nav ol{
+    flex-basis: 35%;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.loja_nav ol li{
+    flex-grow: 1;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.loja_nav ol li a{
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.searche_div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 35px;
+    margin: 5px 0px;
+}
+.searche_div input{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+    padding-left: 5px;
+    font-size: 15px;
+    color: grey;
+}
+.sec_lojas{
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-height: 350px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.icom{
+    height: 50px;
+    width: 50px;
+}
+.icom img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
